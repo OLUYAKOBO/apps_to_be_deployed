@@ -59,8 +59,8 @@ def user_input():
     return features
 
 df1 = user_input()
-st.subheader('User Input Parameters')
-st.write(df1)
+#st.subheader('User Input Parameters')
+#st.write(df1)
 
 
 df1.Gender = df1.Gender.map({'Female':0,
