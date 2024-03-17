@@ -95,7 +95,7 @@ df1.Obesity = df1.Obesity.map({'No': 0,
                                 'Yes': 1})
 
 
-st.write(df1)
+#st.write(df1)
 
 load_clf = pickle.load(open('diabetes_clf.pkl', 'rb'))
 
@@ -109,8 +109,8 @@ if st.button('Click here to get your diagnosis'):
     st.write(f"Your diabetes condition is {dia_condition[prediction]}")
 
 
-st.subheader('Prediction Probability')
-st.write(prediction_proba)
+#st.subheader('Prediction Probability')
+#st.write(prediction_proba)
     
     
     
