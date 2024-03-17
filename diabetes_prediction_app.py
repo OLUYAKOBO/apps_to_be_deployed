@@ -105,7 +105,7 @@ prediction_proba = load_clf.predict_proba(df1)
 
 st.subheader('Prediction')
 if st.button('Click here to get your diagnosis'):
-    if predictions == 0:
+    if predictions == '0':
         st.write("Your diabetes condition is Negative")
     st.write("Your diabetes condition is Positive")
     
