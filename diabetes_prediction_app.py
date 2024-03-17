@@ -108,7 +108,8 @@ if st.button('Click here to get your diagnosis'):
     dia_condition = np.array(['Negative','Positive'])
     if dia_condition[prediction] == 'Negative':
         st.write("Your diabetes condition is Negative")
-    st.write("Your diabetes condition is Positive")
+    else:
+        st.write("Your diabetes condition is Positive")
     
 
 #st.subheader('Prediction Probability')
